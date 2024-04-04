@@ -34,9 +34,17 @@ ctx.fill()
 ctx.closePath()
 }
 
-
+//draw paddle on canvas
+function drawPaddle() {
+    ctx.beginPath()
+    ctx.rect(paddle.x, paddle.y, paddle.w, paddle.h)
+    ctx.fillStyle = `#009599`
+    ctx.fill()
+    ctx.closePath()
+    }
 
 drawBall()
+drawpaddle()
 
 
 //rules open & close event handelers
