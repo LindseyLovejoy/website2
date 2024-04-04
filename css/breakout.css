@@ -62,6 +62,10 @@ h1 {
     translation: transform 2s ease-in-out;
 }
 
+rules.active {
+    transform: translateX(0)
+}
+
 .rules.show {
     transform: translateX(0);
 }
