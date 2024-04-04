@@ -4,6 +4,8 @@ rules = document.querySelector('.rules')
 canvas = document.getElementById('canvas')
 ctx = canvas.getContext('2d')
 
+score = 0
+
 //Create ball's properties
 ball = {
     x: canvas.width/2,
