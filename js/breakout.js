@@ -1,7 +1,7 @@
 btn = document.querySelector('.rules-btn')
 closeBtn = document.querySelector('.close-btn')
 rules = document.querySelector('.rules')
-canvas = documant.getElementById('canvas')
+canvas = document.getElementById('canvas')
 ctx = canvas.getContext('2d')
 
 //Create ball's properties
