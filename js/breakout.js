@@ -54,6 +54,7 @@ function drawPaddle() {
     function draw() {
         drawBall()
         drawPaddle()
+        drawScore()
     }
 
     draw()
