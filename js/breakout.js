@@ -40,6 +40,12 @@ brickInfo = {
     visable: true
 }
 
+// create bricks
+bricks = []
+for (let i = 0; i < brickRowCount; i++) {
+  bricks[i] = []
+}
+
 //draw ball on canvas
 function drawBall() {
 ctx.beginPath()
