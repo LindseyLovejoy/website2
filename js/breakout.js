@@ -6,6 +6,8 @@ ctx = canvas.getContext('2d')
 
 score = 0
 
+brickRowCount
+
 //Create ball's properties
 ball = {
     x: canvas.width/2,
@@ -49,6 +51,7 @@ function drawPaddle() {
     function drawScore() {
         ctx.fillText(`Score: ${score}`, canvas.width-100, 30)
     }
+
 
     // Draw everything
     function draw() {
