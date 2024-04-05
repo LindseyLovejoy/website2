@@ -44,6 +44,7 @@ brickInfo = {
 bricks = []
 for (let i = 0; i < brickRowCount; i++) {
   bricks[i] = []
+  for (let j = 0; j < brickColumnCount)
 }
 
 //draw ball on canvas
