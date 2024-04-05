@@ -6,7 +6,8 @@ ctx = canvas.getContext('2d')
 
 score = 0
 
-brickRowCount
+brickRowCount = 9
+brickColumnCount = 5
 
 //Create ball's properties
 ball = {
@@ -27,6 +28,16 @@ paddle = {
     speed: 8,
     dx: 0,
 
+}
+
+// create brick properties
+brickInfo = {
+    w: 70,
+    h: 20,
+    padding: 10,
+    ofsetX: 45,
+    offsetY: 60,
+    visable: true
 }
 
 //draw ball on canvas
