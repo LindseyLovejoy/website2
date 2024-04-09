@@ -39,5 +39,8 @@ body {
 
 .btn:hover {
     opacity: 0.9;
-    
+}
+
+.screen.up {
+    margin-top: -100vh;
 }
