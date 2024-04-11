@@ -1,3 +1,2 @@
 const screens = document.quereSelectorAll('.screen')
-
-screens[0].classlist.add('up')
+choose_insect_btns = document.querySelectorAll
