@@ -27,7 +27,6 @@ paddle = {
     h: 10,
     speed: 8,
     dx: 0,
-
 }
 
 // create brick properties
