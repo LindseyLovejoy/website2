@@ -104,7 +104,10 @@ function drawPaddle() {
 
     // wall detection
     if (paddle.x < 0) {
-        
+        paddle.x = 0
+    }
+    if (paddle.x + paddle.w< canvas.width) {
+        paddle.x = 0
     }
 
     // key down event
