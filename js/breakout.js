@@ -102,6 +102,11 @@ function drawPaddle() {
         paddle.x = paddle.x + paddle.dx
     }
 
+    // wall detection
+    if (paddle.x < 0) {
+        
+    }
+
     // key down event
     function keyDown(e) {
         if (e.key == 'ArrowRight' || e.key == 'Right') {
