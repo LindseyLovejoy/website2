@@ -98,8 +98,14 @@ function drawPaddle() {
 
     //move paddle on canvas
     function movePaddle() {
-        
+        paddle.x = paddle.x + paddle.dx
     }
+
+    // key down event
+    function keyDown(e)
+
+    // Keyboard event handelers
+    document.addEventListener('keydown', keyDown)
 
     // Update canvas drawing and animation
     function update() {
