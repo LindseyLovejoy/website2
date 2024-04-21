@@ -103,7 +103,12 @@ function drawPaddle() {
 
     // key down event
     function keyDown(e) {
-        consloe.log(e.key)
+        if (e.key == 'ArrowRight' || e.key == 'Right') {
+            paddle.dx = paddle.speed
+        }
+        if (e.key == 'ArrowLeft' || e.key == 'Left') {
+            paddle.dx = -(paddle.speed)
+        }
     }
 
     // Keyboard event handelers
