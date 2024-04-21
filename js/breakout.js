@@ -110,9 +110,18 @@ function drawPaddle() {
             paddle.dx = -(paddle.speed)
         }
     }
+    function keyUp(e) {
+        if (e.key == 'ArrowRight' || e.key == 'Right') {
+            paddle.dx = 0
+        }
+        if (e.key == 'ArrowLeft' || e.key == 'Left') {
+            paddle.dx = 0
+        }
+    }
 
     // Keyboard event handelers
     document.addEventListener('keydown', keyDown)
+    document.addEventListener('keyup', keyUp)
 
     // Update canvas drawing and animation
     function update() {
