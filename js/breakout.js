@@ -102,7 +102,9 @@ function drawPaddle() {
     }
 
     // key down event
-    function keyDown(e)
+    function keyDown(e) {
+        
+    }
 
     // Keyboard event handelers
     document.addEventListener('keydown', keyDown)
