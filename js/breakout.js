@@ -81,7 +81,7 @@ function drawPaddle() {
             column.forEach(brick => {
                 ctx.beginPath()
                 ctx.rect(brick.x, brick.y, brick.w, brick.h)
-                ctx.fillstyle = brick.visible ? '#0095dd' : 'transperent';
+                ctx.fillstyle = brick.visible ? '#0095dd' : 'transparent';
                 ctx.fill()
                 ctx.closePath()
             })
