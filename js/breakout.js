@@ -82,7 +82,7 @@ function drawPaddle() {
                 ctx.beginPath()
                 ctx.rect(brick.x, brick.y, brick.w, brick.h)
                 ctx.fillstyle = '#0095dd'
-                ctx.fill
+                ctx.fill()
                 ctx.closePath()
             })
         })
