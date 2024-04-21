@@ -111,6 +111,7 @@ function drawPaddle() {
             paddle.dx = -(paddle.speed)
         }
     }
+    // key up event
     function keyUp(e) {
         if (e.key == 'ArrowRight' || e.key == 'Right') {
             paddle.dx = 0
