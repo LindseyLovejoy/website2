@@ -103,7 +103,7 @@ function drawPaddle() {
 
     // key down event
     function keyDown(e) {
-        
+        consloe.log(e.key)
     }
 
     // Keyboard event handelers
