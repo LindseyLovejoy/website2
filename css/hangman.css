@@ -11,3 +11,6 @@ body {
         stroke-linecap: round;
     }
 
+    .figure-part {
+        displat: none;
+    }
