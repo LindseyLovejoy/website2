@@ -89,6 +89,6 @@ h1 {
 
     .popup {
         background: #2980b9;
-        border_radius: 5px;
+        border-radius: 5px;
         box-shadow: 0 15px 10px 3px red
     }
