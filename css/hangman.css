@@ -82,6 +82,7 @@ h1 {
         left: 0;
         right: 0;
         display: flex;
+        display: none;
         align-items: center;
         justify-content: center;
     }
@@ -105,5 +106,5 @@ h1 {
 
     .popup button:active {
         transform: scale(0.98);
-    
+
     }
