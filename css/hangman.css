@@ -90,5 +90,10 @@ h1 {
         background: #2980b9;
         border-radius: 5px;
         box-shadow: 0 15px 10px 3px rgba(0,0,0, 0.15);
+        padding: 20px;
         text-align: center;
+    }
+
+    .popup button {
+        cursor
     }
