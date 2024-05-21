@@ -1,10 +1,10 @@
 const wordEL = document.getElementById('word')
-wrongLettersEL = document.getElementById('wrongLetters')
+const wrongLettersEL = document.getElementById('wrongLetters')
 const platAgainBtn = document.getElementById('play-again')
 const popup = document.getElementById('popup-container')
 const notification = document.getElementById('notification-container')
 const finalMessage = document.getElementById('final-message')
-const figureParts = document.getElementById('.figure-part')
+const figureParts = document.quereSelectorAll('.figure-part')
 
 const word = ['application', 'programming', 'interface', 'wizard']
 
