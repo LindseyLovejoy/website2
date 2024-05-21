@@ -101,7 +101,9 @@ h1 {
         margin-top: 20px;
         padding: 12px 20px;
         font-size: 16px;
-
     }
 
-    .popup
+    .popup button:active {
+        transform: scale(0.98);
+    
+    }
